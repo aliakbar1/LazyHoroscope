@@ -21,7 +21,7 @@ cout<< "Welcome, ";
 cout<<first[0];
 cout<<".";
 cout<<last[0];
-cout<< ", here is your fortune...\n";
+cout<< "., here is your fortune...\n";
 cout<<"your lucky number is ";
 cout<<first.length()<<endl;
 
