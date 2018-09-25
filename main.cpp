@@ -11,13 +11,13 @@ string first;
 string last;
 int Lucky;
   //get user input
-cout<<"what is your first name?\n";
+cout<<"What is your first name?\n";
 cin>> first;
-cout<<"what is your last name?\n";
+cout<<"What is your last name?\n";
 cin>> last;
 int index=last.length()-1;
   //tell fortune
-cout<< "Welcome,";
+cout<< "Welcome, ";
 cout<<first[0];
 cout<<".";
 cout<<last[0];
@@ -35,7 +35,7 @@ cout<<"you should keep a low profile.\n";
 }
 if(last[index]=='a'||last[index]=='i'||last[index]=='e'||last[index]=='o'||last[index]=='u'||last[index]=='A'||last[index]=='E'||last[index]=='I'||last[index]=='O'||last[index]=='U')
 {
-        cout<<"you have met your true love.\n";}
+        cout<<"you have already met your true love.\n";}
 
 
         cout<<"have a good day!\n";
